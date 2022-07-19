@@ -281,7 +281,6 @@ img {
 }
 
 .info {
-	padding-top: 105px;
 	margin-bottom: 140px;
 }
 
@@ -438,8 +437,7 @@ img {
 	padding-top: 34px;
 }
 
-.main-header + .doc,
-.main-header + .single {
+.main-header + section {
 	margin-top: 102px;
 }
 
@@ -833,8 +831,7 @@ img {
 
 @media screen and (max-width: 960px) {
 
-.main-header + .doc,
-.main-header + .single {
+.main-header + section {
 	margin-top: 60px;
 }
 
