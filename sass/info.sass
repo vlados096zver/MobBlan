@@ -1,0 +1,57 @@
+@import 'responsive'
+
+.info
+	padding-top: 105px
+	margin-bottom: 140px	
+	+media(lgsm)
+		margin-bottom: 100px	
+	+media(mdx)
+		margin-bottom: 80px	
+	+media(sm)
+		margin-bottom: 50px	
+
+	&__wrap
+		position: relative
+
+	&__item
+		&--text
+			width: 588px
+			+media(lgsm)
+				width: 100%
+
+		&--image
+			max-width: 685px
+			width: 100%	
+			position: absolute
+			top: 0px
+			right: 0px
+			+media(lgsm)
+				position: static
+				margin: 0 auto
+
+	&__subtitle
+		font-size: 96px
+		line-height: 1.46
+		color: #000000
+		text-transform: uppercase	
+		margin-bottom: 40px	
+		font-weight: 700
+		+media(mdx)
+			font-size: 90px	
+		+media(sm)
+			font-size: 68px	
+		+media(xs)
+			font-size: 48px
+		+media(mini)	
+			font-size: 36px	
+
+		br
+			+media(lgsm)
+				display: none	
+
+	&__text
+		margin-bottom: 82px	
+		p
+			font-size: 20px	
+			line-height: 1.5	
+			color: #000000

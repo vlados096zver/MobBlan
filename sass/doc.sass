@@ -1,0 +1,48 @@
+@import 'responsive'
+
+.doc
+	padding-bottom: 40px
+	+media(mdx)
+		padding-bottom: 30px	
+	.btn--inner
+		margin-bottom: 30px	
+
+	&__wrap	
+		display: flex
+		flex-wrap: wrap
+		padding-bottom: 65px
+		margin: 0 -20px
+		+media(mdx)
+			padding-bottom: 20px
+			margin: 0px
+
+	&__item
+		width: calc(100% / 3 - 40px)
+		background: linear-gradient(209.1deg, #f4f4f4 0%, #ebebeb 100%)
+		padding: 36px 25px
+		padding-bottom: 46px	
+		margin: 0 20px
+		margin-bottom: 45px
+		+media(mdx)
+			width: 100%
+			max-width: 550px
+			margin: 0 auto
+			margin-bottom: 45px
+
+		&:hover
+			.btn
+				background: #f0625a	
+
+	&__subtitle
+		font-size: 18px	
+		line-height: 1.67	
+		color: #0f2742
+		text-transform: uppercase
+		margin-bottom: 28px
+
+	&__text
+		margin-bottom: 32px
+		p
+			font-size: 16px
+			line-height: 1.5
+			color: #0f2742

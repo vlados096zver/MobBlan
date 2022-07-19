@@ -1,0 +1,51 @@
+@import 'responsive'
+
+.services
+	padding-bottom: 65px
+	+media(mdx)
+		padding-bottom: 30px
+	&__wrap	
+		display: flex
+		flex-wrap: wrap
+		margin: 0 -20px
+		+media(mdx)
+			margin: 0px
+
+	&__item
+		width: calc(100% / 3 - 40px)
+		background: linear-gradient(209.1deg, #f4f4f4 0%, #ebebeb 100%)
+		padding: 80px 25px
+		padding-bottom: 40px
+		margin: 0 20px
+		margin-bottom: 45px
+		+media(mdx)
+			width: 100%	
+			max-width: 550px
+			padding: 40px 20px
+			margin: 0px auto
+			margin-bottom: 45px
+
+		&:hover
+			.btn
+				background: #f0625a		
+
+	&__image
+		margin-bottom: 54px
+		img
+			display: block
+			margin: 0 auto
+
+
+	&__subtitle
+		font-size: 24px
+		line-height: 1.25
+		color: #000000
+		text-transform: uppercase
+		margin-bottom: 32px
+
+	&__text
+		margin-bottom: 32px
+		p
+			font-size: 16px
+			line-height: 1.5
+			color: #8a8a8a
