@@ -15,7 +15,6 @@
    $(document).on('click', '.main-header__link', function() {
      let target = $(this).attr('href');
      let pos = target.indexOf('#');
-     console.log(pos)
      if (pos !== -1) {
        target = target.substring(pos)
      }

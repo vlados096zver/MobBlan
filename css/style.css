@@ -188,6 +188,10 @@ img {
 	resize: none;
 }
 
+.input.form-fail {
+	border-color: #ff0000;
+}
+
 .btn {
 	display: block;
 	width: max-content;
@@ -563,7 +567,8 @@ img {
 
 .contacts__item--area {
 	width: 100%;
-	margin-bottom: 46px;
+	padding-bottom: 26px;
+	margin-bottom: 0px;
 }
 
 .contacts__box {
@@ -631,6 +636,10 @@ img {
 	font-weight: 700;
 }
 
+.contacts .btn {
+	margin-top: 20px;
+}
+
 .single {
 	margin-bottom: 135px;
 }
@@ -648,13 +657,68 @@ img {
 	width: 100%;
 }
 
-.single__text p {
+.single__text {
 	font-size: 16px;
 	line-height: 1.88;
+	color: #000000;
 }
 
 .single__text p:not(:last-child) {
 	padding-bottom: 2em;
+}
+
+.single__text h1 {
+	font-size: 24px;
+}
+
+.single__text h2 {
+	font-size: 22px;
+}
+
+.single__text h3 {
+	font-size: 18px;
+}
+
+.single__text h4,
+.single__text h5,
+.single__text h6 {
+	font-size: 16px;
+	line-height: 1.29;
+}
+
+.single__text h1,
+.single__text h2,
+.single__text h3,
+.single__text h4,
+.single__text h5,
+.single__text h6 {
+	padding-bottom: 15px;
+	font-weight: 500;
+}
+
+.single__text ul,
+.single__text ol {
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 1.5em;
+}
+
+.single__text ul li,
+.single__text ol li {
+	position: relative;
+	font-size: 1.25rem;
+	line-height: 1.25;
+	margin-bottom: 6px;
+	font-weight: normal;
+}
+
+.single__text ol li {
+	list-style-position: inside;
+}
+
+.single__text a {
+	display: inline-block;
+	margin-bottom: 12px;
 }
 
 .footer {
@@ -905,6 +969,10 @@ img {
 	font-size: 68px;
 }
 
+.main-header .btn {
+	padding: 11px 32px;
+}
+
 .contacts__wrap {
 	margin: 0px;
 }
@@ -916,7 +984,8 @@ img {
 }
 
 .contacts__item--area {
-	margin-bottom: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 .single .title {
